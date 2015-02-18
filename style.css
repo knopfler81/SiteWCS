@@ -1,0 +1,465 @@
+html{
+
+	background-image:url(sophro.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	height: auto;
+	width:auto;
+	
+}
+
+
+
+#baniere
+
+{
+	margin-top:30px;
+	margin-left: 0px;
+    height: auto;
+    width:1024px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 2px 4px 4px white; 
+    text-decoration: right;
+}
+
+/* texte logo etc...*/
+
+#page
+{
+
+	width:1024px;
+	height:auto;
+	border:2px solid white;
+
+}
+
+#logo
+
+{
+position: relative;
+width:150px;
+padding-right:260px;
+}
+
+#logo, ul
+
+{
+display: inline-block;
+vertical-align: bottom;
+}
+
+h1
+
+{
+	 color:white;
+	 font-size: 25px;
+	 padding:10px;
+	 width: 400px;
+	 line-height:18px;
+	 font-family: 'Bad Script', cursive;
+	 text-align: left;
+	 text-decoration: underline;
+
+}
+
+
+p{
+
+	color: #225d13;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	font-size:16px;
+	font-style: oblique;
+ 	background: linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+ 	background:-webkit-linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+ 	background:-moz-linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+ 	border-radius: 5px;
+ 	padding:8px;
+ 	border: #d3fcad 1px solid;
+ 	margin:5px;
+}
+
+#citation, h3
+{
+	font-size: 18px;
+	color: white;
+	font-family: 'Bad Script', cursive;
+}
+
+/*navigation*/
+
+nav
+{
+	margin-top:20px;
+    display: inline-block;
+    width: 1024px;
+	text-align: right;
+	color:#225d13;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    line-height: 40px;
+    background: linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+ 	background:-webkit-linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+ 	background:-moz-linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+ 	border: #d3fcad 1px solid;
+ 	border-radius: 6px;
+
+}
+
+nav li
+{
+
+    display: inline-block;
+	margin-right: 25px;
+}
+
+li
+{
+
+	font-size: 20px;
+	padding: 0 10px 0 10px;
+
+
+}
+
+
+a
+{
+	text-decoration: none;
+	color:green;
+
+}
+
+nav,li a:hover
+{
+	color: yellow;
+}
+
+
+/*page accueil*/
+.accompagnement, .presentation
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}
+
+
+.accompagnement
+{
+	margin-top: 40px;
+	width: 600px;
+	height: 450px;
+
+}
+
+.accompagnement h1
+{
+	margin-left:-130px;
+	color:#225d13;;
+}
+
+.presentation 
+{
+	margin-top: 40px;
+	width:300px;
+	height:450px;
+
+}
+
+.presentation h1
+{
+
+	color:#225d13;
+}
+#avatar
+{
+
+	width: 80px;
+	height: auto;
+	border: 1px solid white;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+
+/* Page La sophrologie*/
+
+.origine
+{
+	margin-top: 80px;
+	width: 900px;
+	border-radius: 6px;
+	border:2px solid white;
+}
+
+.origine h1
+{
+
+	color:#225d13;
+	margin-left: -450px;
+
+}
+
+.objectif
+{
+	margin-top: 20px;
+	width:900px;
+
+}
+
+.objectif h1
+{
+	color:#225d13;
+	margin-left: -450px;
+}
+
+.aide
+{
+	margin-top: 20px;
+	width:900px;
+
+}
+
+.aide h1
+{
+
+	color:#225d13;
+	margin-left: -450px;
+}
+
+
+.lasophro
+
+{
+	padding-top: 20px;
+	margin-top: 20px;
+	width:900px;
+
+
+}
+
+.lasophro h1
+{
+
+	color:#225d13;
+	margin-left: -450px;
+}
+
+
+
+
+/* Séance et tarifs */
+
+.seancesgroupe 
+
+{
+width: 900px;
+}
+
+.seancesindiv 
+
+{
+width:900px;
+}
+.seancesgroupe h1
+
+{
+	margin-top:50px;
+	margin-left: -500px;
+ 	color:#225d13;
+}
+
+.seancesindiv h1
+
+{
+	margin-left: -500px;
+	color:#225d13;
+}
+
+
+
+#photogroupe
+{
+
+	margin-left: -650px;
+	width:250px;
+ 	border: #d3fcad 1px solid;
+ 	border-radius: 6px;
+
+
+}
+
+#photoindiv
+{
+
+	margin-left: -650px;
+	width:250px;
+ 	border: #d3fcad 1px solid;
+ 	border-radius: 6px;
+
+
+}
+
+
+
+/*reponsive*/
+
+@media all and (max-width: 900px)
+
+	{
+
+#page
+	{
+
+	
+	width:auto;
+
+	}
+
+#baniere
+	{
+
+	display: none;
+	}
+nav
+	{	
+	margin-left: 20px;
+	margin-top:20px;
+    display: block;
+	text-align: left;
+	color:#225d13;
+
+	}
+nav ul
+	{
+    list-style-type: none;
+    line-height: 20px;
+    background:none;
+    border:none;
+
+
+	}
+
+nav li
+	{
+
+    display:block;
+	margin-left:-60px;
+
+	}
+
+li
+	{
+
+	font-size: 20px;
+	padding: 0 5px 0 5px;
+
+
+	}	
+
+
+a
+	{
+	text-decoration: none;
+	color:white;
+
+	}
+
+#logo
+
+	{
+position: relative;
+width:100px;
+padding-right:50px;
+margin-left: 50px;
+	}
+
+#logo, ul
+
+	{
+display: inline-block;
+vertical-align: bottom;
+	}
+
+.presentation, .accompagnement
+
+	{
+	display: block;
+	margin: auto;
+	width:auto;
+	height:auto;
+	}
+.presentation #avatar
+
+	{
+	display: block;
+	margin:auto;
+	}
+
+.accompagnement h1
+
+	{
+	margin: auto;
+	}
+
+.presentation h1
+
+	{
+	margin: auto;
+	}
+
+.seancesindiv, .seancesgroupe
+
+	{
+	width:auto;
+	display: block;
+	}
+
+ #photoindiv, #photogroupe
+
+	{
+	width:250px;
+	margin:auto;
+	}
+
+.seancesindiv h1
+
+	{
+	margin:auto;
+	}
+
+.seancesgroupe h1
+
+	{
+	margin:auto;
+	}
+
+#citation, h3
+
+	{
+	margin: auto;
+	font-size: 15px;
+}
+
+.lasophro
+
+	{
+	width:auto;
+	display: block;
+
+	}
+
+.lasophro h1
+	{
+margin: auto;
+	}
+
+	}
+
+

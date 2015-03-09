@@ -3,17 +3,11 @@ body
 background-color: #e1e9b8;
 }
 
-<<<<<<< HEAD
 #fond
 {
 	margin-top: 0px;
 	background-image:url(sophro.jpg);
 	background-repeat:no-repeat;
-=======
-background-image:url(sophro2.jpg);
-	background-attachment: fixed;
-	background-repeat: repeat;
->>>>>>> origin/gh-pages
 	height: auto;
 	width:900px;
 
@@ -49,12 +43,8 @@ background-image:url(sophro2.jpg);
 
 width:150px;
 padding-right:900px;
-<<<<<<< HEAD
 margin-bottom: -90px;
 margin-top:30px;
-=======
-margin-bottom: -60px;
->>>>>>> origin/gh-pages
 
 
 }
@@ -300,7 +290,6 @@ width:700px;
 	margin: 20px;
 }
 
-<<<<<<< HEAD
 .horaires p
 {	
 
@@ -360,16 +349,6 @@ h4
 
 
 }
-=======
-.horaires
-{	
-
-	display: inline-block;
-	width: 400px;
-	margin:20px;
-}
-
->>>>>>> origin/gh-pages
 
 
 /*reponsive*/
@@ -440,14 +419,6 @@ a
 #logo
 
 	{
-<<<<<<< HEAD
-=======
-
-width:120px;
-margin-bottom: -120px;
-
-	}
->>>>>>> origin/gh-pages
 
 width:110px;
 margin: 10px 20px 0px 20px;
@@ -458,11 +429,7 @@ margin: 10px 20px 0px 20px;
  {
 display: inline-block;
 
-<<<<<<< HEAD
  }
-=======
-	}
->>>>>>> origin/gh-pages
 
 .presentation, .accompagnement
 

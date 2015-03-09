@@ -1,6 +1,6 @@
 body{
 
-background-image:url(sophro.jpg);
+background-image:url(sophro2.jpg);
 	background-attachment: fixed;
 	background-repeat: repeat;
 	height: auto;
@@ -37,9 +37,12 @@ background-image:url(sophro.jpg);
 #logo
 
 {
-position: relative;
+
 width:150px;
-padding-right:260px;
+padding-right:900px;
+margin-bottom: -60px;
+
+
 }
 
 #logo, ul
@@ -306,6 +309,23 @@ width:900px;
 
 }
 
+/*contact et info*/
+
+.contact 
+{
+	display: inline-block;
+	width: 400px;
+	margin: 20px;
+}
+
+.horaires
+{	
+
+	display: inline-block;
+	width: 400px;
+	margin:20px;
+}
+
 
 
 /*reponsive*/
@@ -350,7 +370,8 @@ nav li
 	{
 
     display:block;
-	margin-left:-60px;
+	margin-left:90px;
+	margin-top: 5px;
 
 	}
 
@@ -358,7 +379,7 @@ li
 	{
 
 	font-size: 20px;
-	padding: 0 5px 0 5px;
+	padding: 0 8px 0 8px;
 
 
 	}	
@@ -374,17 +395,17 @@ a
 #logo
 
 	{
-position: relative;
-width:100px;
-padding-right:50px;
-margin-left: 50px;
+
+width:120px;
+margin-bottom: -120px;
+
 	}
 
 #logo, ul
 
 	{
 display: inline-block;
-vertical-align: bottom;
+
 	}
 
 .presentation, .accompagnement

@@ -1,14 +1,29 @@
+html
+{
+height: 100%;
+width: 100%;
+position: absolute;
+bottom: 0;
+
+}
+
 body
 {
 background-color: #e1e9b8;
+margin: 0;
+height: 100%;
+width: 100%;
+position: absolute;
+bottom: 0;
+
 }
 
 #fond
 {
-	margin-top: 0px;
+
 	background-image:url(sophro.jpg);
 	background-repeat:no-repeat;
-	height: auto;
+	height: 1300px;
 	width:900px;
 
 }
@@ -33,7 +48,6 @@ background-color: #e1e9b8;
 
 	width:900px;
 	height:1200px;
-
 	
 }
 
@@ -41,7 +55,7 @@ background-color: #e1e9b8;
 
 {
 
-width:150px;
+width:140px;
 padding-right:900px;
 margin-bottom: -90px;
 margin-top:30px;
@@ -49,12 +63,12 @@ margin-top:30px;
 
 }
 
-#logo, ul
+/*#logo, ul
 
 {
 display: inline-block;
 
-}
+}*/
 
 h1
 
@@ -103,6 +117,7 @@ nav
     display: inline-block;
     width: 900px;
 	color:#225d13;
+
 
 }
 
@@ -203,10 +218,6 @@ nav,li a:hover
 /* Page La sophrologie*/
 
 
-
-
-
-
 .lasophro
 
 {
@@ -224,8 +235,6 @@ nav,li a:hover
 	color:white;
 	margin-left: -280px;
 }
-
-
 
 
 /* Séance et tarifs */
@@ -307,17 +316,18 @@ margin-top: 50px;
 }
 
 
-
-#citation h3
+footer h3
 {
-	position: absolute; 
-	margin-left: 180px;
-	margin-top:-100px;
+	background-color: #669900;
+	position:relative;
+	margin-top: auto;
 	font-size: 20px;
 	color: white;
 	font-family: 'Bad Script', cursive;
-
+	text-align: center;
+	width:900px;
 }
+
 #plan
 {
 
@@ -329,7 +339,6 @@ margin-top: 50px;
  	border: #d3fcad 1px solid;
  	margin:5px;
  	width: 700px;
-
 }
 
 h2
@@ -337,7 +346,7 @@ h2
 
 	font-family: 'Bad Script', cursive;
  	font-size: 40px;
- 	color: white;
+ 	color: #669900;
  	text-decoration: underline;
 }
 

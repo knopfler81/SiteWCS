@@ -66,7 +66,7 @@ h1
 	 line-height:18px;
 	 font-family: 'Bad Script', cursive;
 	 text-align: left;
-	 text-decoration: underline;
+	 text-decoration: underline
 
 }
 
@@ -168,7 +168,7 @@ nav,li a:hover
 .accompagnement h1
 {
 	
-	color:#004102;
+	color:white;
 }
 
 .presentation 
@@ -184,7 +184,7 @@ nav,li a:hover
 .presentation h1
 {
 
-	color:#004102;
+	color:white;
 
 }
 
@@ -221,7 +221,7 @@ nav,li a:hover
 .lasophro h1
 {
 
-	color:#004102;
+	color:white;
 	margin-left: -280px;
 }
 
@@ -246,7 +246,7 @@ width:700px;
 {
 	margin-top:80px;
 	margin-left: -300px;
- 	color:#004102;
+ 	color:white;
 }
 
 .seancesindiv h1
@@ -254,7 +254,7 @@ width:700px;
 {
 	margin-top: 90px;
 	margin-left: -300px;
-	color:#004102;
+	color:white;
 }
 
 
@@ -336,8 +336,8 @@ h2
 {
 
 	font-family: 'Bad Script', cursive;
- 	font-size: 30px;
- 	color: #225d13;
+ 	font-size: 40px;
+ 	color: white;
  	text-decoration: underline;
 }
 

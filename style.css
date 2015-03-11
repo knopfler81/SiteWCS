@@ -248,7 +248,7 @@ nav,li a:hover
 	margin-top: -220px;
 	width: 650px;
 	height: 450px;
-	margin-left: 50px;
+	margin-left: 35px;
 }
 
 
@@ -256,13 +256,13 @@ nav,li a:hover
 {
 	
 	color:white;
-	margin-left: -250px;
+	margin-left: -200px;
 }
 
 
 .presentation 
 {
-	margin-left: 50px;
+	margin-left: 35px;
 	margin-top: 100px;
 	width:650px;
 	height:450px;
@@ -274,7 +274,7 @@ nav,li a:hover
 {
 
 	color:white;
-	margin-left: -250px;
+	margin-left: -200px;
 	margin-top: 10px;
 }
 
@@ -311,17 +311,19 @@ nav,li a:hover
 
 /* Séance et tarifs */
 
-#seances-tarifs h1
+#seances-tarifs
 {
-	margin-top:10px;
-	margin-left: -250px;
-	display:inline-block;
+	margin-top: 100px;
+	margin-left: 180px;
+	display: inline-block;
 }
+
 
 .seancesgroupe 
 {
 	width: 650px;
 	display: block;
+
 }
 
 
@@ -334,7 +336,7 @@ nav,li a:hover
 .seancesgroupe
 
 {
-	margin-top:150px;
+	
 	margin-left: -180px;
  	color:white;
  	display: block;
@@ -343,7 +345,7 @@ nav,li a:hover
 .seancesindiv
 
 {
-	margin-top: 90px;
+	
 	margin-left: -180px;
 	color:white;
 }
@@ -353,7 +355,7 @@ nav,li a:hover
 #photogroupe
 {
 
-	margin-left: -440px;
+	margin-left: -400px;
 	margin-bottom: 20px;
 	width:200px;
  	border: #d3fcad 1px solid;
@@ -365,7 +367,7 @@ nav,li a:hover
 #photoindiv
 {
 
-	margin-left: -440px;
+	margin-left: -400px;
 	margin-bottom: 20px;
 	width:200px;
  	border: #d3fcad 1px solid;

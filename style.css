@@ -1,22 +1,24 @@
 html
 {
-height: 100%;
-width: 100%;
-position: absolute;
-bottom: 0;
-
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
+
 
 body
 {
-background-color: #e1e9b8;
-margin: 0;
-height: 100%;
-width: 100%;
-position: absolute;
-bottom: 0;
-
+	background-color: #e1e9b8;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
+
+
+/* texte logo etc...*/
 
 #fond
 {
@@ -25,7 +27,7 @@ bottom: 0;
 	background-repeat:no-repeat;
 	height: 1300px;
 	width:900px;
-
+	border: #d3fcad 2px solid;
 }
 
 
@@ -37,51 +39,67 @@ bottom: 0;
     height: auto;
     width:900px;
     position: relative;
+    border: #d3fcad 1px solid;
     box-shadow: 1px 1px 1px white; 
- 
 }
-
-/* texte logo etc...*/
 
 #page
 {
 
 	width:900px;
-	height:1200px;
-	
+	height:1200px;	
 }
+
 
 #logo
-
 {
-
-width:140px;
-margin-right: 900px;
-margin-bottom: -90px;
-margin-top:20px;
-margin-left: 20px;
-
-
+	width:160px;
+	margin-right: 900px;
+	margin-bottom: -50px;
+	margin-top:-20px;
+	margin-left: 20px;
+	display: inline-block;
 }
 
-/*#logo, ul
-
-{
-display: inline-block;
-
-}*/
 
 h1
-
 {
 	 color:white;
 	 font-size: 25px;
-	 margin-left: -300px;
+	 margin-left: -200px;
 	 width: 400px;
 	 line-height:18px;
 	 font-family: 'Bad Script', cursive;
 	 text-align: left;
 	 text-decoration: underline
+}
+
+
+h2
+{
+
+	font-family: 'Bad Script', cursive;
+ 	font-size: 40px;
+ 	color: #669900;
+ 	text-decoration: underline;
+}
+
+
+h4
+{
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 14px;
+ 	color: white;
+ 	text-decoration: underline;
+}
+
+
+h5
+{
+
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 12px;
+ 	color: white;
 
 }
 
@@ -105,60 +123,64 @@ p{
 
 
 /*navigation*/
-ul
-{
 
-	margin-right: 15px;
-	margin-top: 0;
-}
 
 nav
 {
 
-    display: inline-block;
-    width: 700px;
-	/*color:#225d13;*/
-	color: white;
 
+    width: 700px;
+	color: white;
+	padding: 0px 10px 10px 10px ;
 }
+
+
+ul
+{
+	float: right;
+	margin-right: -85px;
+	margin-top: 0;
+}
+
 
 nav ul
 {
+	margin-top: 0px;
     list-style-type: none;
     line-height: 30px;
-    /*background: linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
- 	background:-webkit-linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
- 	background:-moz-linear-gradient(bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
- 	border: #d3fcad 1px solid;*/
- 	border-radius: 8px;
- 	margin-left: 200px;
- 	background-color: #669900;
-
 }
+
 
 nav li
 {
 
     display: inline-block;
-	margin-right: 25px;
+	margin-right: 5px;
+	background: linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
+	background:-webkit-linear-gradient(bottom,rgba(2102,153,0,0.9), rgba(102,152,0,0.5));
+	background:-moz-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
+	padding: 3px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border: #d3fcad 2px solid;
+	border-top: inherit;
 }
+
 
 li
 {
 
 	font-size: 20px;
-	padding: 5px;
-
-
+	padding: 3px;
 }
 
 
 a
 {
 	text-decoration: none;
-	color:green;
-
+	color:white;
 }
+
 
 nav,li a:hover
 {
@@ -166,80 +188,23 @@ nav,li a:hover
 }
 
 
-/*page accueil*/
+/*barre de côté*/
 
 
 .info
 {
-margin-top: 150px;
-background-color: #669900;
-width: 150px;
-height: 800px;
-display: inline-block;
-float: right;
-border: solid 1px #669900;
-border-radius: 5px;
-margin-right:15px;
-padding: 8px;
-
-
-}
-
-
-#enveloppe
-{
-
-	width: 100px;
-
-}
- 
-#ico_plan
-
-{
-	width:50px;
+	margin-top: 130px;
+	background: linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
+	background:-webkit-linear-gradient(bottom,rgba(2102,153,0,0.9), rgba(102,152,0,0.5));
+	background:-moz-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
+	width: 150px;
+	height: 900px;
 	display: inline-block;
-	margin-left: 10px;
-}
-.accompagnement, .presentation
-{
-	display: block;
-	float: left;
-}
-
-
-.accompagnement
-{
-	margin-top:-150px;
-	width: 650px;
-	height: 450px;
-	margin-left: 50px;
-
-}
-
-.accompagnement h1
-{
-	
-	color:white;
-	margin-left: -250px;
-
-}
-
-.presentation 
-{
-	margin-left: 50px;
-	margin-top: 100px;
-	width:650px;
-	height:450px;
-	display: inline-block;
-
-}
-
-.presentation h1
-{
-
-	color:white;
-	margin-left: -250px;
-
+	float: right;
+	border: #d3fcad 1px solid;
+	border-radius: 5px;
+	margin-right:15px;
+	padding: 8px;
 }
 
 
@@ -252,57 +217,134 @@ padding: 8px;
 	margin-right: 800px;
 	margin-top: 10px;
 	display: block;
-
 }
+
+#enveloppe
+{
+
+	width: 100px;
+}
+ 
+#ico_plan
+
+{
+	width:50px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/*page accueil*/
+
+
+.accompagnement, .presentation
+{
+	display: block;
+	float: left;
+}
+
+
+.accompagnement
+{
+	margin-top: -220px;
+	width: 650px;
+	height: 450px;
+	margin-left: 50px;
+}
+
+
+.accompagnement h1
+{
+	
+	color:white;
+	margin-left: -250px;
+}
+
+
+.presentation 
+{
+	margin-left: 50px;
+	margin-top: 100px;
+	width:650px;
+	height:450px;
+	display: inline-block;
+}
+
+
+.presentation h1
+{
+
+	color:white;
+	margin-left: -250px;
+	margin-top: 10px;
+}
+
+
 
 
 /* Page La sophrologie*/
 
-
 .lasophro
 {
-	padding-top: 20px;
-	margin-top: 20px;
-	width:700px;
-	margin-top: 50px;
-
-
+	margin-top: 100px;
+	width:650px;
+	float: left;
+	margin-left: 40px
 }
 
-.lasophro h1
+
+
+.objectif
 {
-
-	color:white;
-	margin-left: -280px;
+	margin-top: 50px;
+	width:650px;
+	float: left;
+	margin-left: 40px
 }
 
+.aide
+{
+	margin-top: 50px;
+	width:650px;
+	float: left;
+	margin-left: 40px
+}
 
 /* Séance et tarifs */
 
-.seancesgroupe 
-
+#seances-tarifs h1
 {
-width: 700px;
+	margin-top:10px;
+	margin-left: -250px;
+	display:inline-block;
 }
+
+.seancesgroupe 
+{
+	width: 650px;
+	display: block;
+}
+
 
 .seancesindiv 
-
 {
-width:700px;
+	width:650px;
+	display: block;
 }
-.seancesgroupe h1
+
+.seancesgroupe
 
 {
-	margin-top:80px;
-	margin-left: -300px;
+	margin-top:150px;
+	margin-left: -180px;
  	color:white;
+ 	display: block;
 }
 
-.seancesindiv h1
+.seancesindiv
 
 {
 	margin-top: 90px;
-	margin-left: -300px;
+	margin-left: -180px;
 	color:white;
 }
 
@@ -311,27 +353,28 @@ width:700px;
 #photogroupe
 {
 
-	margin-left: -500px;
+	margin-left: -440px;
+	margin-bottom: 20px;
 	width:200px;
  	border: #d3fcad 1px solid;
  	border-radius: 6px;
-
-
+ 	display: block;
 }
+
 
 #photoindiv
 {
 
-	margin-left: -500px;
+	margin-left: -440px;
+	margin-bottom: 20px;
 	width:200px;
  	border: #d3fcad 1px solid;
  	border-radius: 6px;
-
-
+ 	display: block;
 }
 
 
-
+/*pied des pages*/
 
 footer, 
 {
@@ -345,37 +388,13 @@ footer,
 
 #citation
 {
-font-family: 'Bad Script', cursive;
-background-color:#669900;
-color:white;
-height: 60px;
-width: 900px;
-border-top: solid 0.4px white;
-border-bottom: solid 0.4px white;
-margin:center;
-}
-
-
-
-
-
-h2
-{
-
 	font-family: 'Bad Script', cursive;
- 	font-size: 40px;
- 	color: #669900;
- 	text-decoration: underline;
+	background-color:#669900;
+	color:white;
+	height: 60px;
+	width: 900px;
+	border-top: solid 0.4px white;
+	border-bottom: solid 0.4px white;
+	margin:center;
 }
-
-h4
-{
-	font-family: 'Roboto', sans-serif;
- 	font-size: 12px;
- 	color: white;
-
-
-}
-
-
 

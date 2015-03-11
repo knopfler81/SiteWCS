@@ -156,9 +156,9 @@ nav li
 
     display: inline-block;
 	margin-right: 5px;
-	background: linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
-	background:-webkit-linear-gradient(bottom,rgba(2102,153,0,0.9), rgba(102,152,0,0.5));
-	background:-moz-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
+	background: linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,153,0,0.5));
+	background:-webkit-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,153,0,0.5));
+	background:-moz-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,153,0,0.5));
 	padding: 3px;
 	border-bottom-right-radius: 8px;
 	border-bottom-left-radius: 8px;
@@ -194,9 +194,9 @@ nav,li a:hover
 .info
 {
 	margin-top: 130px;
-	background: linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
-	background:-webkit-linear-gradient(bottom,rgba(2102,153,0,0.9), rgba(102,152,0,0.5));
-	background:-moz-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,152,0,0.5));
+	background: linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,153,0,0.5));
+	background:-webkit-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,153,0,0.5));
+	background:-moz-linear-gradient(bottom,rgba(102,153,0,0.9), rgba(102,153,0,0.5));
 	width: 150px;
 	height: 900px;
 	display: inline-block;
